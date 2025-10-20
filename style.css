@@ -71,6 +71,7 @@ section.imagem {
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
     background-size: cover;
     background-attachment: fixed;
+    background-position: bottom right;
 }
 
 section.imagem > p{
@@ -89,7 +90,7 @@ section#img01{
 
 section#img02{
     background-image: url(imagens/foto\ campos.jpg);
-        background-position: left bottom;
+    background-position: left bottom;
 }
 
 footer{
