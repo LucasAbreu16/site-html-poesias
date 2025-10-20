@@ -70,7 +70,7 @@ section.imagem {
     color: white;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
     background-size: cover;
-    background-attachment: scroll;
+    background-attachment: fixed;
 }
 
 section.imagem > p{
@@ -82,16 +82,27 @@ section.imagem > p{
 }
 
 section#img01{
-    background-image: url(imagens/foto\ navio.jpg);
+    background-image: url(imagens/fotonavio.jpg);
     background-position: bottom right;
 
 }
 
 section#img02{
-    background-image: url(imagens/foto\ campos.jpg);
-    background-position: left bottom;
+    background-image: url(imagens/fotocampos.jpg);
+        background-position: left bottom;
 }
 
+section.teste .campos {
+    position: fixed;   /* fixa na tela */
+    top: 0;
+    left: 0;
+    width: 100%;       /* ocupa largura inteira */
+    height: 100%;      /* ocupa altura inteira */
+    background-image: url(imagens/fotonavio.jpg); /* imagem de fundo */
+    background-size: cover;
+    z-index: -1;       /* atrás do conteúdo */
+
+}
 footer{
     background-color: black;
     font-size: 2.5vh;
