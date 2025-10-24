@@ -29,12 +29,12 @@ header > h1{
     font-family: var(--fonte2);
     padding-top: 50px;
     font-variant: small-caps;
-    font-size: 10vw;
+    font-size: 7vw;
 }
 
 header > p{
     padding-bottom: 50px;
-    font-size: 2.5vh;
+    font-size: 2.5vw;
 }
 
 a {
@@ -49,15 +49,16 @@ header a:hover, footer a:hover{
 
 section {
     font-family: var(--fonte3);
-    padding-top: 10vh;
-    padding-bottom: 10vh;
+    padding-top: 12vh;
+    padding-bottom: 12vh;
     line-height: 2em;
     padding-left: 30px;
-    font-size: 3vw;
+    font-size: 2.4vw;
+
 }
 
 section > p{
-    padding-bottom: 2em;
+    padding-bottom: 1.7em;
 }
 
 section.normal {
@@ -70,7 +71,8 @@ section.imagem {
     color: white;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
     background-size: cover;
-    background-attachment: fixed;
+
+    background-repeat: no-repeat;
 }
 
 section.imagem > p{
@@ -82,27 +84,21 @@ section.imagem > p{
 }
 
 section#img01{
-    background-image: url(imagens/fotonavio.jpg);
+    background-image: url(imagens/fotonavio2.jpg);
     background-position: bottom right;
+    padding-top: 20vh;
+    padding-bottom: 30vh;
 
 }
 
 section#img02{
-    background-image: url(imagens/fotocampos.jpg);
-        background-position: left bottom;
+    background-image: url(imagens/fotocampos2.jpg);
+    background-position: bottom left;
+    padding-top: 20vh;
+    padding-bottom: 30vh;
 }
 
-section.teste .campos {
-    position: fixed;   /* fixa na tela */
-    top: 0;
-    left: 0;
-    width: 100%;       /* ocupa largura inteira */
-    height: 100%;      /* ocupa altura inteira */
-    background-image: url(imagens/fotonavio.jpg); /* imagem de fundo */
-    background-size: cover;
-    z-index: -1;       /* atrás do conteúdo */
 
-}
 footer{
     background-color: black;
     font-size: 2.5vh;
